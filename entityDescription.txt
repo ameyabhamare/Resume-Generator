@@ -1,0 +1,11 @@
+1. MEMBER: Stores personal details (name, phone, email etc) of every member along with a password. Every member is assigned a unique ID which acts as a primary key.
+2. SCHOOL: Stores all the school IDs, school names and locations, identified uniquely by school ID.
+3. SCHOOLING: Stores the schooling received by every user. It stores the member ID, passing level (10 or 12) and school ID along with stream, percentage and passing year. The primary key is a composite key consisting of the member ID and passing level. (A member can only have two passing levels for schooling - one for 10th and one for 12th.)
+4. DEGREE INFO: Stores details of the various degrees that are possible. Each degree is identified with a degree ID.
+5. HIGHER EDUCATION: Stores the higher education received by every user. It stores the degree ID, member ID, GPA and college name. The primary key is a composite key consisting of the member ID and degree ID. (A member can have multiple degrees.)
+6. SKILLS: Stores the skillsets of all users. It stores the member ID, skill name and expertise level(1-10). A combination of the member ID and skill name acts as a primary key. (A member can have multiple skills and multiple members can have the same skill.)
+7. PROJECTS: Stores all the projects users have worked on. The member ID and the project name act as a primary key. (A member can work on multiple projects and 2 members can have the same project name.)
+8. JOB: It stores the Job ID, Title, Location, Description and Employer. The Job ID acts as a primary key and every job is assigned a unique ID.
+9. EXPERIENCE: It stores the member ID, Job ID, start date, end date and the duration. the primary key is a combination of the member ID and the job ID since multiple members can have the same job.
+10. ACCOMPLISHMENTS: Stores the member ID, accomplishment name and description of the accomplishment. The primary key is a composite key consisting of member ID and accomplishment name.
+11. CERTIFICATIONS: Stored the member ID, certification URL and the certificate name. The certification URL is unique for every individual and acts as the primary key.
