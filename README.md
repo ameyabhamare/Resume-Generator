@@ -1,2 +1,2 @@
 # Resume-Generator
-An application that generates a resume in a standard format for a client after taking in their details.
+An application that generates a resume for a client in a standard format.
